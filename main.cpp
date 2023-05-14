@@ -18,7 +18,7 @@ int main (int argc, char** argv)
         snake.move();
         snake.eat(fruit);
         snake.collide(&run);
-        fruit.drawFruit(board.renderer);    
+        fruit.drawFruit(board.renderer);
         snake.drawSnake(board.renderer);
         SDL_SetRenderDrawColor(board.renderer, 0, 0, 0, 255);
         SDL_RenderPresent(board.renderer);
